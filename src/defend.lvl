@@ -1,0 +1,7 @@
+(
+	(
+		alien (10 10 10 20 left) 
+		alien (20 190 10 20 right) 
+		alien (150 10 10 40 right)
+	)
+)
