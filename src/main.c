@@ -148,7 +148,7 @@ game_init (void)
 
   /* global variable screen */
   screen = SDL_SetVideoMode (XRESOLUTION, YRESOLUTION, 16, 
-			     SDL_DOUBLEBUF|SDL_HWSURFACE|SDL_FULLSCREEN);
+			     SDL_DOUBLEBUF|SDL_HWSURFACE);
   check_error (screen == NULL, "Set video mode failed");
 
   SDL_WM_SetCaption (game_name, NULL);
